@@ -48,7 +48,7 @@ fun main() {
 
     student.marks = 70 // observable, quand é alterado, o observable executa o lambda.
 
-    student.age = 13
-    println("Age Student: ${student.age}")
+    student.age = 13 // vetoable
+    println("Age Student: ${student.age}") //Só altera o dado quando a condição for true!
 }
 
